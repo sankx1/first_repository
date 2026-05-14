@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python bytecode (helps code run faster but shouldn't be saved)
+__pycache__/
+*.pyc
+
+# Ignore VS Code specific workspace settings that might have personal paths
+.vscode/
+
+data/*.csv
+data/*.json
